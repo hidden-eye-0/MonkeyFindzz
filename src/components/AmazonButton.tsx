@@ -1,0 +1,1 @@
+import {ExternalLink} from 'lucide-react';export default function AmazonButton({url,label='View on Amazon'}:{url:string;label?:string}){return <a className="btn btn-primary w-full" href={url==='YOUR_AMAZON_AFFILIATE_LINK_HERE'?'https://www.amazon.in/':url} target="_blank" rel="nofollow sponsored noopener noreferrer">{label}<ExternalLink size={16}/></a>}

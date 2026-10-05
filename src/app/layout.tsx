@@ -1,0 +1,3 @@
+import type {Metadata} from 'next';import './globals.css';import Header from '@/components/Header';import Footer from '@/components/Footer';
+export const metadata:Metadata={title:'MonkeyFindzz | Discover Beauty Products Worth Finding',description:'Discover skincare, makeup, haircare, fragrance and beauty tools with MonkeyFindzz. Find your next beauty favorite and shop on Amazon.',openGraph:{title:'MonkeyFindzz | Beauty Finds Worth Discovering',description:'A premium beauty product discovery storefront.'}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="en"><body><Header/><main>{children}</main><Footer/></body></html>}
